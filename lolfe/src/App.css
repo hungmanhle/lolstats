@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.modal-outer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 100px 0;
+}
+.modal-inner {
+  background: #fff;
+  margin: 0 auto;
+  padding: 100px 0;
+  width: 300px;
+  height: 140px;
+}
+.modal-input{
+
+}
+.card-border {
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.14), 0 0.0625rem 0.3125rem 0 rgba(0, 0, 0, 0.12), 0 0.1875rem 0.0625rem -0.125rem rgba(0, 0, 0, 0.2);
+  border: 0.0625rem solid #bdbdbd;
+  border-radius: 4px;
+}
+.profile-row {
+  width: 600px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin: 2em auto;
+  padding: 2em 2em;
+  flex-direction: row;
+  background: #e0e0e0;
+}
+
+.avatar-div {
+  display: block; 
+  flex-grow: 1;
+}
+.profile-details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1em;
+  flex-grow: 4;
+}
+
+.match-card {
+  width: 600px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin: 2em auto;
+  padding: 2em 2em;
+  flex-direction: row;
+  background: #e0e0e0;
+}
+.match-detail {
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+}
